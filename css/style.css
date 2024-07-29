@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.btn-primary{
+    margin-left: 3px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+}
+h3,h5{
+    color: #778899;
+}
+.card-title {
+    margin-left: 20px;
+}
+
+
+/* addtocart */
+
+.box{
+    width: 956px;
+    height: 900px;
+    margin-left: 186px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.port{
+    margin-left: 84px;
+    margin-top: 28px;
+}
+.cakes{
+    margin-left: 84px;
+
+}
+form{
+    margin-top: 50px;
+    margin-left: 205px;
+}
+.d-block{
+    margin-top: 20px;
+}
+.sub_price{
+    margin-left: 187px;
+    margin-top: 31px;
+}
+.carts{
+    position: relative;
+    left: 567px;
+    top: -52px;
+}
+
+
+
+/* Buy Cart */
+
+.card-adj{
+    text-align: center;
+    width: 1270px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+/* .card-title{
+    margin-left: 59px;
+} */
+.con{
+    position: relative;
+    left: 289px;
+    top: -48px;
+}
+

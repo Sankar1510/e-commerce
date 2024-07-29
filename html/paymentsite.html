@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Card</title>
+    <!--Bootstrap 5 Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--external Css-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <div class="card card-adj">
+        <img src="../images/dish2.png" class="card-img-top" alt="..." style="
+        height: 265px;
+        width: 287px;
+        text-align: center;
+        margin-left: 524px;
+    ">
+        <div class="card-body">
+          <h5 class="card-title">Fruit Cake</h5>
+          <p class="card-text">Cookie cheesecake blends rich, creamy cream cheese with buttery cookie crunches for a decadently sweet treat.</p>
+          <h3 for="">Total qty: <span id="finalqty"  value="">1</span></h3><br>
+          <h3 for="">Price: <span id="finalprice" value="">1500</span> </h3><br>
+          <h3 for="">Total Rs: <span id="finalpriceamount" value="" style="font-size: 40px;">1500</span></h3>
+          
+          <a href="" class="btn btn-primary con" onclick ="confirmorder()">Buy</a>
+        </div>
+    </div>
+
+
+    
+     <!-- Bootstrap 5 js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+<script>
+    document.getElementById('finalqty').textContent = localStorage.getItem('itemsNo')
+    document.getElementById('finalpriceamount').textContent = localStorage.getItem('priceoftotal')
+   
+    function confirmorder()
+        {
+            alert("Your order placed succesfully")
+
+        }
+    
+</script>

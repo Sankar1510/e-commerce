@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Card</title>
+    <!--Bootstrap 5 Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--external Css-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+    <div class="container py-5">
+        <h1 class="text-center">Popular Dishes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card">
+                    <img src="../images/dish4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cookie Cheesecake</h5>
+                      <p class="card-text" id="product" value="" onclick="sub_value()">Cookie cheesecake blends rich, creamy cream cheese with buttery cookie crunches for a decadently sweet treat.</p>
+                      <h3>Rs.2000 <del>Rs.3000</del></h3>
+                      <a href="addtocarcookie.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                        
+                  </div>
+                </div>  
+                  
+            <div class="col">
+                <div class="card">
+                    <img src="../images/dish2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fruit Cake</h5>
+                      <p class="card-text">Fruit cake offers a rich, dense texture with a blend of sweet, fruity flavors and a hint of spice.</p>
+                      <h3>Rs.1500 <del>Rs.2800</del></h3>
+                      <a href="addtocart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>      
+                  
+            <div class="col">
+                <div class="card">
+                    <img src="../images/dish3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cheesecake with strawberries</h5>
+                      <p class="card-text">Cheesecake with strawberries delivers a cream, tangy richness complemented by the sweet.</p>
+                      <h3>Rs.3000 <del>Rs.4000</del></h3>
+                      <a href="addtocartcheese.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div> 
+                       
+            </div>
+
+        </div>
+    </div>     
+ <!-- Bootstrap 5 js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<Script>
+    // function sub_value(){
+    //     var subv = document.getElementById('product').textContent
+    //     var product = subv.substr(0,30)
+    //     var New = product + '......'
+    // }
+</Script>
+                  
+                  
+           
+
+
+
+
+
+
+
+
+
+
+
+
